@@ -251,10 +251,10 @@ def mail_sender():
         df_daily_status = pd.read_sql_query(main_query('manager_1'),engine)
         send_to_group()
 
-        df_daily_status = pd.read_sql_query(main_query('manager_1'),engine)
+        df_daily_status = pd.read_sql_query(main_query('manager_2'),engine)
         send_to_group()
 
-        df_daily_status = pd.read_sql_query(main_query('manager_1'),engine)
+        df_daily_status = pd.read_sql_query(main_query('manager_3'),engine)
         send_to_group()
 
         print('Mail sender Done.')
